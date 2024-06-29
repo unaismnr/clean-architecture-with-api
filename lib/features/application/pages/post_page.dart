@@ -14,14 +14,6 @@ class PostPage extends StatelessWidget {
         elevation: 0,
         actions: [
           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.favorite),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.settings),
-          ),
-          IconButton(
             onPressed: () {
               context.read<PostBloc>().add(
                     FetchPostEvent(),
